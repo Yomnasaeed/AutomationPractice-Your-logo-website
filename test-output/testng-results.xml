@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="7" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Automation Practice Regression Suite" duration-ms="231795" started-at="2020-08-16T00:35:13Z" finished-at="2020-08-16T00:39:05Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="231795" started-at="2020-08-16T00:35:13Z" finished-at="2020-08-16T00:39:05Z">
+      <class name="tests.RegisteredUserCanOrderProductTest">
+        <test-method status="PASS" signature="UserCanSelectBlousesFromWomenHoverMenu()[pri:1, instance:tests.RegisteredUserCanOrderProductTest@5136207f]" name="UserCanSelectBlousesFromWomenHoverMenu" duration-ms="7713" started-at="2020-08-16T00:36:05Z" finished-at="2020-08-16T00:36:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanSelectBlousesFromWomenHoverMenu -->
+        <test-method status="PASS" signature="AddToCart()[pri:2, instance:tests.RegisteredUserCanOrderProductTest@5136207f]" name="AddToCart" duration-ms="6434" started-at="2020-08-16T00:36:12Z" finished-at="2020-08-16T00:36:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddToCart -->
+        <test-method status="PASS" signature="OrderProcessing()[pri:3, instance:tests.RegisteredUserCanOrderProductTest@5136207f]" name="OrderProcessing" duration-ms="42873" started-at="2020-08-16T00:36:19Z" finished-at="2020-08-16T00:37:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderProcessing -->
+        <test-method status="PASS" signature="BlouseOrderValidation()[pri:4, instance:tests.RegisteredUserCanOrderProductTest@5136207f]" name="BlouseOrderValidation" duration-ms="123259" started-at="2020-08-16T00:37:02Z" finished-at="2020-08-16T00:39:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BlouseOrderValidation -->
+      </class> <!-- tests.RegisteredUserCanOrderProductTest -->
+      <class name="tests.CreateNewAccountTest">
+        <test-method status="PASS" signature="startDriver()[pri:0, instance:tests.CreateNewAccountTest@53ac845a]" name="startDriver" is-config="true" duration-ms="28595" started-at="2020-08-16T00:34:45Z" finished-at="2020-08-16T00:35:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method status="PASS" signature="CreateAndAuthenticateNewUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:tests.CreateNewAccountTest@53ac845a]" name="CreateAndAuthenticateNewUser" duration-ms="46522" started-at="2020-08-16T00:35:18Z" data-provider="ExcelData" finished-at="2020-08-16T00:36:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ali]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ahmed]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.2345678E7]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ali]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ahmed]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[77  nasr street]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[cairo]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[5655 5 65 56]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[78  nasr street]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateAndAuthenticateNewUser -->
+        <test-method status="PASS" signature="stopDriver()[pri:0, instance:tests.CreateNewAccountTest@53ac845a]" name="stopDriver" is-config="true" duration-ms="1268" started-at="2020-08-16T00:39:06Z" finished-at="2020-08-16T00:39:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- tests.CreateNewAccountTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Automation Practice Regression Suite -->
+</testng-results>

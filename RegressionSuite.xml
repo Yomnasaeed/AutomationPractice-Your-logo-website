@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Automation Practice Regression Suite" >
+  <test name="Test" preserve-order="true">
+    <classes>
+      <class name="tests.CreateNewAccountTest"/>
+      <class name="tests.RegisteredUserCanOrderProductTest"/>
+    </classes>
+  </test> 
+</suite> 
